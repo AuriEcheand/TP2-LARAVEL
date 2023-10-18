@@ -1,0 +1,20 @@
+J'ai utiliser BREEZE pour l'authentification
+
+Utiliser les commandes dans la terminal pour faire fonctionné le projet
+
+1-Composer update
+2-Composer require laravel/laravel breeze --dev
+3-Php artisan breeze:install
+4-php artisan migrate 
+5-php artisan db:seed
+6-Npm install 
+7-Npm run dev
+8-php artisan serve
+
+
+
+Lien github
+
+https://github.com/AuriEcheand/TP2-LARAVEL
+
+

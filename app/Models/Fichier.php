@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Fichier extends Model
+{
+    use HasFactory;
+
+    protected $fillable = ['titre', 'file', 'langue', 'user_id', 'date_de_creation'];
+
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+}
